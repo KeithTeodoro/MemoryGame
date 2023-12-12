@@ -85,3 +85,14 @@ h1 {
 .boxMatch {
   transform: rotateY(180deg);
 }
+@media (max-width: 600px) {
+  .container {
+    width: 100%;
+    padding: 20px;
+  }
+
+  .game {
+    width: 100%;
+    height: auto;
+  }
+}
